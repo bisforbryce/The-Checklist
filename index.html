@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Planner App</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  </head>
+
+    <body>
+<!-- all content should go within this div container bellow-->
+        <div class="container-sm">
+<!--  HEADER SECTION FOR DATE + NAME      -->
+ 
+          <div id="header">
+            <h5> Fri Aug 5</h5>
+            <h2> To Do</h2>
+
+          </div>
+          <div id="main">
+            <h2> HELLO, ________! Here's today's tasks:</h2>
+
+<!--  FORMS TAG FOR CHECKBOXES -->
+            <form action="/action_page.php">
+                <input type="checkbox" id="task1" name="task1" value="Plant">
+                <label for="task1"> Water Plants</label><br>
+
+                <input type="checkbox" id="task2" name="task2" value="dog">
+                <label for="task2"> feed dog </label><br>
+
+                <input type="checkbox" id="task3" name="task3" value="grass">
+                <label for="task3"> Mow the grass</label><br>
+
+                <input type="checkbox" id="task4" name="task4" value="math">
+                <label for="task4"> math lab homework</label><br>
+                <div class="form-row">
+            </form>
+
+<!-- TASK ASSIGN, DUE DATES, DESCRIPTIONS -->
+            <div class="form-group col" id="group">
+              <label for="newTaskAssignedTo">Assigned To:</label>
+              <input type="text" class="form-control" id="newTaskAssignedTo">
+            
+      
+              <label for="newTaskDueDate">Due Date:</label>
+              <input type="date" class="form-control" id="newTaskDueDate">
+            
+          
+              <label for="newTaskDescription">Description</label>
+              <textarea type="text" class="form-control" id="newTaskDescription"></textarea>
+            </div>
+          </div>
+
+
+        </div>
+    
+    </body>
+</html>
