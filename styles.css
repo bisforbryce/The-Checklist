@@ -1,0 +1,27 @@
+body{
+    text-align: center;
+    
+}
+.container-sm{
+    text-align: center;
+}
+
+#header h2{
+    padding: 38px 8px;
+    background-color: black;
+    color: rgb(255, 255, 255);
+    width: auto;
+    margin-left: 90px;
+    margin-right: 90px;
+    border-radius: 10px;
+
+}
+form, #group{
+    text-decoration: underline;
+    font-size: 24px;
+    text-align: left;
+    width: 100%;
+}
+input{
+    width: 36px;
+}
